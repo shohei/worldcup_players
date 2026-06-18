@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
-import pydeck as pydeck
+import folium
+from folium.plugins import MarkerCluster
+from streamlit_folium import st_folium
 
 st.set_page_config(page_title="2026 FIFA W杯 代表選手マップ", layout="wide")
 
@@ -18,11 +20,6 @@ def load_data():
 
 
 df = load_data()
-
-unmatched = df[df["lat"].isna()]["club"].unique()
-if len(unmatched) > 0:
-    st.sidebar.warning(f"座標未登録クラブ: {len(unmatched)}件")
-
 df = df.dropna(subset=["lat", "lng"])
 
 countries = sorted(df["country"].unique())
@@ -38,9 +35,10 @@ if selected_country == "すべて":
 else:
     filtered = df[df["country"] == selected_country]
 
+club_countries = sorted(filtered["club_country"].dropna().unique())
 club_league_filter = st.sidebar.selectbox(
     "所属クラブの国で絞り込み",
-    ["すべて"] + sorted(filtered["club_country"].dropna().unique()),
+    ["すべて"] + club_countries,
     index=0,
 )
 if club_league_filter != "すべて":
@@ -50,69 +48,57 @@ grouped = (
     filtered.groupby(["club", "lat", "lng", "city", "club_country"])
     .agg(
         player_count=("player_name", "size"),
-        players=("player_name", lambda x: "\n".join(x)),
-        countries=("country", lambda x: ", ".join(sorted(set(x)))),
+        players=("player_name", list),
+        countries=("country", lambda x: sorted(set(x))),
     )
     .reset_index()
 )
 
-country_colors = {}
-import hashlib
-for c in countries:
-    h = int(hashlib.md5(c.encode()).hexdigest()[:6], 16)
-    country_colors[c] = [(h >> 16) & 0xFF, (h >> 8) & 0xFF, h & 0xFF]
-
-
-def get_color(countries_str):
-    clist = [c.strip() for c in countries_str.split(",")]
-    if len(clist) == 1 and clist[0] in country_colors:
-        return country_colors[clist[0]]
-    return [65, 105, 225]
-
-
-grouped["color"] = grouped["countries"].apply(get_color)
-grouped["radius"] = grouped["player_count"].apply(lambda x: max(x * 12000, 20000))
-
-layer = pydeck.Layer(
-    "ScatterplotLayer",
-    data=grouped,
-    get_position=["lng", "lat"],
-    get_radius="radius",
-    get_fill_color="color",
-    pickable=True,
-    opacity=0.7,
-    stroked=True,
-    get_line_color=[0, 0, 0],
-    line_width_min_pixels=1,
-)
-
 if selected_country == "すべて":
-    view = pydeck.ViewState(latitude=30, longitude=0, zoom=1.5, pitch=0)
+    center = [30, 0]
+    zoom = 2
 else:
-    avg_lat = filtered["lat"].mean()
-    avg_lng = filtered["lng"].mean()
-    view = pydeck.ViewState(latitude=avg_lat, longitude=avg_lng, zoom=3, pitch=0)
+    center = [filtered["lat"].mean(), filtered["lng"].mean()]
+    zoom = 3
 
-tooltip = {
-    "html": "<b>{club}</b><br/>{city}, {club_country}<br/>選手数: {player_count}<br/>代表: {countries}<br/><br/>{players}",
-    "style": {
-        "backgroundColor": "rgba(0,0,0,0.8)",
-        "color": "white",
-        "fontSize": "12px",
-        "padding": "8px",
-        "maxWidth": "350px",
-        "whiteSpace": "pre-wrap",
-    },
-}
+m = folium.Map(location=center, zoom_start=zoom, tiles="CartoDB positron")
 
-deck = pydeck.Deck(
-    layers=[layer],
-    initial_view_state=view,
-    tooltip=tooltip,
-    map_style="mapbox://styles/mapbox/light-v11",
-)
+marker_cluster = MarkerCluster(
+    options={"maxClusterRadius": 35, "disableClusteringAtZoom": 6}
+).add_to(m)
 
-st.pydeck_chart(deck, use_container_width=True, height=600)
+for _, row in grouped.iterrows():
+    player_list = "<br>".join(
+        [f"・{p}" for p in row["players"]]
+    )
+    country_list = ", ".join(row["countries"])
+    popup_html = f"""
+    <div style="min-width:200px; max-width:300px; font-family:sans-serif; font-size:12px;">
+        <b style="font-size:14px;">{row['club']}</b><br>
+        <span style="color:#666;">{row['city']}, {row['club_country']}</span><br>
+        <hr style="margin:4px 0;">
+        <b>代表: {country_list}</b><br>
+        <b>選手数: {row['player_count']}</b><br>
+        <hr style="margin:4px 0;">
+        {player_list}
+    </div>
+    """
+
+    radius = max(row["player_count"] * 3, 5)
+
+    folium.CircleMarker(
+        location=[row["lat"], row["lng"]],
+        radius=radius,
+        popup=folium.Popup(popup_html, max_width=320),
+        tooltip=f"{row['club']} ({row['player_count']}人)",
+        color="#2B5EA7",
+        fill=True,
+        fill_color="#4A90D9",
+        fill_opacity=0.7,
+        weight=1,
+    ).add_to(marker_cluster)
+
+st_folium(m, use_container_width=True, height=600, returned_objects=[])
 
 st.subheader("統計")
 
