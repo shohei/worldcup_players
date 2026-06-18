@@ -1,0 +1,542 @@
+club,lat,lng,city,club_country
+PSV Eindhoven,51.4416,5.4697,Eindhoven,Netherlands
+Slavia Prague,50.0755,14.4378,Prague,Czech Republic
+TSG Hoffenheim,49.2389,8.8887,Sinsheim,Germany
+Wolverhampton Wanderers,52.5870,-2.1288,Wolverhampton,England
+Hradec Králové,50.2092,15.8328,Hradec Králové,Czech Republic
+Bayer Leverkusen,51.0459,6.9878,Leverkusen,Germany
+Sparta Prague,50.0755,14.4378,Prague,Czech Republic
+Viktoria Plzeň,49.7384,13.3736,Plzeň,Czech Republic
+Olympique Lyonnais,45.7640,4.8357,Lyon,France
+West Ham United,51.5320,-0.0176,London,England
+SC Braga,41.5454,-8.4265,Braga,Portugal
+CD Guadalajara,20.6866,-103.3485,Guadalajara,Mexico
+PAOK,40.6263,22.9485,Thessaloniki,Greece
+Lokomotiv Moscow,55.7558,37.6173,Moscow,Russia
+Fenerbahçe,41.0082,28.9784,Istanbul,Turkey
+Genoa,44.4056,8.9463,Genoa,Italy
+Cruz Azul,19.3028,-99.1505,Mexico City,Mexico
+Real Betis,37.3891,-5.9845,Seville,Spain
+Fulham,51.4750,-0.2217,London,England
+Toluca,19.2826,-99.6557,Toluca,Mexico
+AC Milan,45.4781,9.1240,Milan,Italy
+Santos Laguna,25.4232,-100.9922,Torreón,Mexico
+AEL Limassol,34.6786,33.0413,Limassol,Cyprus
+Club América,19.3028,-99.1505,Mexico City,Mexico
+Al Qadsiah,26.4207,50.0888,Khobar,Saudi Arabia
+AEK Athens,37.9838,23.7275,Athens,Greece
+Atlético Madrid,40.4168,-3.7038,Madrid,Spain
+Club Tijuana,32.5027,-117.0037,Tijuana,Mexico
+AZ Alkmaar,52.6324,4.7534,Alkmaar,Netherlands
+Anderlecht,50.8344,4.2981,Brussels,Belgium
+Pumas UNAM,19.3028,-99.1505,Mexico City,Mexico
+Dynamo Moscow,55.7558,37.6173,Moscow,Russia
+Mamelodi Sundowns,-25.7479,28.2293,Pretoria,South Africa
+Orlando Pirates,-26.2041,28.0473,Johannesburg,South Africa
+Hannover 96,52.3602,9.7332,Hannover,Germany
+Molde,62.7375,6.2550,Molde,Norway
+Polokwane City,-23.9045,29.4689,Polokwane,South Africa
+Philadelphia Union,39.8328,-75.3790,Chester PA,United States
+Kaizer Chiefs,-26.2041,28.0473,Johannesburg,South Africa
+Chicago Fire,41.8642,-87.6168,Chicago,United States
+Tondela,40.5167,-8.0833,Tondela,Portugal
+Burnley,53.7890,-2.2482,Burnley,England
+Ulsan HD,35.5384,129.3114,Ulsan,South Korea
+FC Tokyo,35.6654,139.5272,Tokyo,Japan
+Jeonbuk Hyundai Motors,35.8242,127.1480,Jeonju,South Korea
+Bayern Munich,48.2188,11.6247,Munich,Germany
+FC Midtjylland,56.0935,9.1187,Herning,Denmark
+Gangwon FC,37.7517,128.8760,Gangneung,South Korea
+Kashima Antlers,35.9688,140.6309,Kashima,Japan
+Zhejiang Professional,30.2741,120.1551,Hangzhou,China
+Austria Wien,48.2082,16.3738,Vienna,Austria
+Red Star Belgrade,44.7866,20.4489,Belgrade,Serbia
+Borussia Mönchengladbach,51.1747,6.3854,Mönchengladbach,Germany
+Daejeon Hana Citizen,36.3504,127.3845,Daejeon,South Korea
+Celtic,55.8497,-4.2055,Glasgow,Scotland
+Birmingham City,52.4862,-1.8904,Birmingham,England
+Feyenoord,51.8939,4.5231,Rotterdam,Netherlands
+Stoke City,52.9884,-2.1756,Stoke-on-Trent,England
+Swansea City,51.6428,-3.9351,Swansea,Wales
+Paris Saint-Germain,48.8414,2.2530,Paris,France
+Beşiktaş,41.0391,29.0075,Istanbul,Turkey
+Los Angeles FC,34.0126,-118.2841,Los Angeles,United States
+Sharjah FC,25.3573,55.3903,Sharjah,UAE
+Mainz 05,49.9840,8.2243,Mainz,Germany
+FC St. Pauli,53.5544,9.9675,Hamburg,Germany
+HNK Rijeka,45.3271,14.4422,Rijeka,Croatia
+Atalanta,45.7092,9.6809,Bergamo,Italy
+SL Benfica,38.7528,-9.1847,Lisbon,Portugal
+Gaziantep FK,37.0662,37.3833,Gaziantep,Turkey
+FC Schalke 04,51.5547,7.0722,Gelsenkirchen,Germany
+Sassuolo,44.5345,10.8592,Sassuolo,Italy
+Sampdoria,44.4056,8.9463,Genoa,Italy
+RC Lens,50.4333,2.8167,Lens,France
+Hull City,53.7457,-0.3367,Hull,England
+Pafos FC,34.7750,32.4244,Paphos,Cyprus
+FC Astana,51.1282,71.4307,Astana,Kazakhstan
+Karlsruher SC,49.0069,8.4037,Karlsruhe,Germany
+Slovan Liberec,50.7673,15.0562,Liberec,Czech Republic
+Brøndby IF,55.6592,12.4098,Brøndby,Denmark
+BSC Young Boys,46.9625,7.4651,Bern,Switzerland
+Red Bull Salzburg,47.8162,13.0453,Salzburg,Austria
+VfB Stuttgart,48.7924,9.2320,Stuttgart,Germany
+Universitatea Cluj,46.7712,23.6236,Cluj-Napoca,Romania
+Jagiellonia Białystok,53.1307,23.1643,Białystok,Poland
+Inter Miami,25.9580,-80.2389,Fort Lauderdale,United States
+Orlando City,28.5418,-81.3891,Orlando,United States
+Barnsley,53.5526,-1.4797,Barnsley,England
+OGC Nice,43.7050,7.1925,Nice,France
+Rangers,55.8531,-4.3091,Glasgow,Scotland
+FCV Dender,50.8833,4.0833,Dender,Belgium
+Middlesbrough,54.5742,-1.2350,Middlesbrough,England
+Toronto FC,43.6332,-79.4185,Toronto,Canada
+HNK Hajduk Split,43.5081,16.4402,Split,Croatia
+Norwich City,52.6223,1.3089,Norwich,England
+Villarreal,39.9439,-0.1024,Villarreal,Spain
+Tigres UANL,25.7268,-100.3131,Monterrey,Mexico
+Los Angeles FC,34.0126,-118.2841,Los Angeles,United States
+Southampton,50.9058,-1.3908,Southampton,England
+Union Saint-Gilloise,50.8127,4.3367,Brussels,Belgium
+Juventus,45.1096,7.6413,Turin,Italy
+Al Duhail,25.2854,51.5310,Doha,Qatar
+Al Sadd,25.2854,51.5310,Doha,Qatar
+Al Rayyan,25.2854,51.5310,Doha,Qatar
+Al Arabi,25.2854,51.5310,Doha,Qatar
+Al Gharafa,25.2854,51.5310,Doha,Qatar
+Al Wakrah,25.1653,51.6075,Al Wakrah,Qatar
+Cultural Leonesa,42.5987,-5.5671,León,Spain
+Al Shamal,26.1025,51.2028,Al Shamal,Qatar
+Borussia Dortmund,51.4927,7.4518,Dortmund,Germany
+FC Lorient,47.7485,-3.3702,Lorient,France
+Inter Milan,45.4781,9.1240,Milan,Italy
+Hamburger SV,53.5869,9.8989,Hamburg,Germany
+Eintracht Frankfurt,50.0687,8.6455,Frankfurt,Germany
+Valencia,39.4745,-0.3583,Valencia,Spain
+SC Freiburg,47.9890,7.8538,Freiburg,Germany
+Bologna,44.4949,11.3108,Bologna,Italy
+AS Monaco,43.7277,7.4153,Monaco,Monaco
+Sevilla,37.3841,-5.9706,Seville,Spain
+Stade Rennais,48.1073,-1.7130,Rennes,France
+Leeds United,53.7779,-1.5720,Leeds,England
+Nottingham Forest,52.9399,-1.1329,Nottingham,England
+Fortuna Düsseldorf,51.2612,6.7324,Düsseldorf,Germany
+Augsburg,48.3231,10.8856,Augsburg,Germany
+Pisa,43.7228,10.4017,Pisa,Italy
+Liverpool,53.4309,-2.9608,Liverpool,England
+Grêmio,-30.0635,-51.2340,Porto Alegre,Brazil
+Flamengo,-22.8917,-43.2297,Rio de Janeiro,Brazil
+Zenit St. Petersburg,59.9730,30.2204,St. Petersburg,Russia
+Arsenal,51.5549,-0.1084,London,England
+AS Roma,41.9340,12.4547,Rome,Italy
+Newcastle United,54.9755,-1.6216,Newcastle,England
+Manchester United,53.4631,-2.2913,Manchester,England
+Botafogo,-22.8917,-43.2297,Rio de Janeiro,Brazil
+Al Ittihad,21.4858,39.1925,Jeddah,Saudi Arabia
+Brentford,51.4882,-0.2889,London,England
+Santos,-23.9433,-46.3316,Santos,Brazil
+FC Barcelona,41.3809,2.1228,Barcelona,Spain
+AFC Bournemouth,50.7352,-1.8382,Bournemouth,England
+Real Madrid,40.4531,-3.6884,Madrid,Spain
+Al Hilal,24.7136,46.6753,Riyadh,Saudi Arabia
+RS Berkane,34.0667,-2.3167,Berkane,Morocco
+AS FAR,33.9716,-6.8498,Rabat,Morocco
+PSV Eindhoven,51.4416,5.4697,Eindhoven,Netherlands
+Al Ahly,30.0444,31.2357,Cairo,Egypt
+Crystal Palace,51.3983,-0.0855,London,England
+Olympique de Marseille,43.2699,5.3958,Marseille,France
+KV Mechelen,51.0258,4.4776,Mechelen,Belgium
+RC Strasbourg,48.5598,7.7543,Strasbourg,France
+LOSC Lille,50.6120,3.1302,Lille,France
+Real Betis,37.3891,-5.9845,Seville,Spain
+Girona,41.9607,2.8282,Girona,Spain
+Racing Genk,50.9651,5.5003,Genk,Belgium
+Sunderland,54.9145,-1.3882,Sunderland,England
+Al Ain,24.1917,55.7609,Al Ain,UAE
+Olympiacos,37.9489,23.6652,Piraeus,Greece
+Eintracht Frankfurt,50.0687,8.6455,Frankfurt,Germany
+SC Bastia,42.6927,9.4508,Bastia,France
+FC Sochaux,47.5157,6.7987,Sochaux,France
+Cosmos Koblenz,50.3569,7.5890,Koblenz,Germany
+Angers SCO,47.4784,-0.5632,Angers,France
+Zulte Waregem,50.8830,3.3830,Waregem,Belgium
+Colorado Springs Switchbacks,38.8339,-104.8214,Colorado Springs,United States
+AS Nancy,48.6921,6.1844,Nancy,France
+KAA Gent,51.0543,3.7174,Ghent,Belgium
+LDU Quito,-0.1807,-78.4678,Quito,Ecuador
+FC Lugano,46.0037,8.9511,Lugano,Switzerland
+FC Vizela,41.3833,-8.3083,Vizela,Portugal
+Wolverhampton Wanderers,52.5870,-2.1288,Wolverhampton,England
+Violette AC,18.5392,-72.3288,Port-au-Prince,Haiti
+FC Tatran Prešov,49.0018,21.2393,Prešov,Slovakia
+FC Dallas,32.8540,-96.8550,Frisco TX,United States
+AJ Auxerre,47.7979,3.5670,Auxerre,France
+Almere City,52.3777,5.2182,Almere,Netherlands
+Esteghlal,35.6892,51.3890,Tehran,Iran
+Çaykur Rizespor,41.0206,40.5234,Rize,Turkey
+Ferencváros,47.4979,19.0402,Budapest,Hungary
+Heart of Midlothian,55.9381,-3.2322,Edinburgh,Scotland
+Hibernian,55.9617,-3.1653,Edinburgh,Scotland
+Al Ettifaq,26.4207,50.0888,Dammam,Saudi Arabia
+Dinamo Zagreb,45.8150,15.9819,Zagreb,Croatia
+Everton,53.4389,-2.9664,Liverpool,England
+AFC Bournemouth,50.7352,-1.8382,Bournemouth,England
+Napoli,40.8279,14.1931,Naples,Italy
+Aston Villa,52.5092,-1.8847,Birmingham,England
+Torino,45.0419,7.6497,Turin,Italy
+Charlton Athletic,51.4866,0.0364,London,England
+Ipswich Town,52.0546,1.1445,Ipswich,England
+Manchester City,53.4831,-2.2004,Manchester,England
+Chelsea,51.4817,-0.1910,London,England
+Tottenham Hotspur,51.6033,-0.0662,London,England
+Bayer Leverkusen,51.0383,6.9880,Leverkusen,Germany
+Toulouse,43.5833,1.4341,Toulouse,France
+Charlotte FC,35.2059,-80.8371,Charlotte,United States
+FC Cincinnati,39.1113,-84.5230,Cincinnati,United States
+Seattle Sounders,47.5952,-122.3316,Seattle,United States
+Coventry City,52.4481,-1.4960,Coventry,England
+Columbus Crew,39.9686,-82.9824,Columbus,United States
+Vancouver Whitecaps,49.2764,-123.1119,Vancouver,Canada
+New York City FC,40.6827,-73.9766,New York,United States
+New England Revolution,42.0909,-71.2643,Foxborough,United States
+Levante,39.4945,-0.3507,Valencia,Spain
+Randers FC,56.4614,10.0443,Randers,Denmark
+Melbourne City,-37.8136,144.9631,Melbourne,Australia
+Leicester City,52.6203,-1.1412,Leicester,England
+Parma,44.7937,10.3281,Parma,Italy
+Colorado Rapids,39.8056,-104.8920,Commerce City,United States
+New York City FC,40.6827,-73.9766,New York,United States
+APOEL Nicosia,35.1856,33.3823,Nicosia,Cyprus
+Albirex Niigata,37.9161,139.0364,Niigata,Japan
+Grazer AK,47.0707,15.4395,Graz,Austria
+Sydney FC,-33.8688,151.2093,Sydney,Australia
+Melbourne Victory,-37.8136,144.9631,Melbourne,Australia
+Watford,51.6500,-0.3962,Watford,England
+CD Castellón,39.9864,-0.0513,Castellón,Spain
+Heracles Almelo,52.3563,6.6692,Almelo,Netherlands
+Machida Zelvia,35.5500,139.4400,Machida,Japan
+Cerro Porteño,-25.2800,-57.6350,Asunción,Paraguay
+San Lorenzo,-34.6284,-58.4350,Buenos Aires,Argentina
+Olimpia,-25.2800,-57.6350,Asunción,Paraguay
+Palmeiras,-23.5274,-46.6781,São Paulo,Brazil
+Atlético Mineiro,-19.8619,-43.9710,Belo Horizonte,Brazil
+Sunderland,54.9145,-1.3882,Sunderland,England
+Lanús,-34.7224,-58.3922,Lanús,Argentina
+Talleres,-31.4135,-64.1811,Córdoba,Argentina
+Atlanta United,33.7553,-84.4006,Atlanta,United States
+Brighton and Hove Albion,50.8615,-0.0834,Brighton,England
+São Paulo,-23.5507,-46.6334,São Paulo,Brazil
+Independiente,-34.6692,-58.3450,Avellaneda,Argentina
+Independiente Rivadavia,-32.8895,-68.8458,Mendoza,Argentina
+Red Bull Bragantino,-22.9528,-46.5418,Bragança Paulista,Brazil
+Portsmouth,50.7989,-1.0912,Portsmouth,England
+Galatasaray,41.0036,28.9944,Istanbul,Turkey
+AS Roma,41.9340,12.4547,Rome,Italy
+İstanbul Başakşehir,41.1191,28.8074,Istanbul,Turkey
+Kasımpaşa,41.0402,28.9693,Istanbul,Turkey
+RB Leipzig,51.3459,12.3495,Leipzig,Germany
+Borussia Dortmund,51.4927,7.4518,Dortmund,Germany
+TSG Hoffenheim,49.2389,8.8887,Sinsheim,Germany
+FC Porto,41.1618,-8.5836,Porto,Portugal
+Miami FC,25.7617,-80.1918,Miami,United States
+Telstar,52.4476,4.6453,Velsen,Netherlands
+VVV Venlo,51.3704,6.1682,Venlo,Netherlands
+Konyaspor,37.8713,32.4846,Konya,Turkey
+Kayserispor,38.7312,35.4787,Kayseri,Turkey
+RKC Waalwijk,51.6911,5.0697,Waalwijk,Netherlands
+PEC Zwolle,52.5117,6.0900,Zwolle,Netherlands
+NEC Nijmegen,51.8431,5.8607,Nijmegen,Netherlands
+Abha Club,18.2165,42.5053,Abha,Saudi Arabia
+Sparta Rotterdam,51.8936,4.4537,Rotterdam,Netherlands
+FC Volendam,52.4955,5.0699,Volendam,Netherlands
+Iğdır FK,39.9204,44.0457,Iğdır,Turkey
+FC Zürich,47.3855,8.5049,Zürich,Switzerland
+FC Den Bosch,51.6978,5.3037,Den Bosch,Netherlands
+Rotherham United,53.4301,-1.3568,Rotherham,England
+Kifisia FC,38.0733,23.8110,Kifisia,Greece
+Sheffield United,53.3703,-1.4710,Sheffield,England
+Maccabi Haifa,32.7940,34.9896,Haifa,Israel
+Terengganu FC,5.3117,103.1324,Kuala Terengganu,Malaysia
+Beveren,51.2119,4.2569,Beveren,Belgium
+Charleroi,50.4108,4.4446,Charleroi,Belgium
+Panathinaikos,37.9838,23.7275,Athens,Greece
+Sporting CP,38.7614,-9.1607,Lisbon,Portugal
+Gil Vicente,41.3602,-8.3054,Barcelos,Portugal
+Trabzonspor,41.0015,39.7178,Trabzon,Turkey
+NK Maribor,46.5547,15.6459,Maribor,Slovenia
+Cercle Brugge,51.1844,3.1852,Bruges,Belgium
+Fiorentina,43.7802,11.2823,Florence,Italy
+Al Ahli,24.6911,46.7110,Riyadh,Saudi Arabia
+Cremonese,45.1322,10.0260,Cremona,Italy
+Viking FK,58.9700,5.7331,Stavanger,Norway
+Wrexham,53.0476,-2.9990,Wrexham,Wales
+Derby County,52.9148,-1.4473,Derby,England
+AIK,59.3610,18.0036,Stockholm,Sweden
+Club Brugge,51.1936,3.1800,Bruges,Belgium
+Celta de Vigo,42.2118,-8.7390,Vigo,Spain
+Mjällby AIF,56.1759,14.8544,Sölvesborg,Sweden
+Malmö FF,55.5833,13.0000,Malmö,Sweden
+Udinese,46.0825,13.1999,Udine,Italy
+VfL Wolfsburg,52.4327,10.8040,Wolfsburg,Germany
+Holstein Kiel,54.3489,10.1227,Kiel,Germany
+AS Saint-Étienne,45.4608,4.3900,Saint-Étienne,France
+CS Sfaxien,34.7400,10.7600,Sfax,Tunisia
+Étoile du Sahel,35.8245,10.5932,Sousse,Tunisia
+Club Africain,36.8065,10.1815,Tunis,Tunisia
+Servette FC,46.1879,6.1318,Geneva,Switzerland
+IFK Norrköping,58.5877,16.1924,Norrköping,Sweden
+US Monastir,35.7643,10.8113,Monastir,Tunisia
+Espérance de Tunis,36.8065,10.1815,Tunis,Tunisia
+Union Berlin,52.4572,13.5681,Berlin,Germany
+FC Copenhagen,55.7027,12.5728,Copenhagen,Denmark
+FC Nordsjælland,55.7924,12.2814,Farum,Denmark
+Hannover 96,52.3602,9.7332,Hannover,Germany
+Stade de Reims,49.2540,3.2680,Reims,France
+Real Sociedad,43.3018,-1.9736,San Sebastián,Spain
+Werder Bremen,53.0664,8.8375,Bremen,Germany
+Ajax,52.3143,4.9419,Amsterdam,Netherlands
+Le Havre,49.4983,0.1022,Le Havre,France
+Sint-Truiden,50.8166,5.1845,Sint-Truiden,Belgium
+KRC Genk,50.9784,5.5372,Genk,Belgium
+NEC Nijmegen,51.8431,5.8607,Nijmegen,Netherlands
+Sanfrecce Hiroshima,34.3793,132.4058,Hiroshima,Japan
+Kashima Antlers,35.9688,140.6309,Kashima,Japan
+Real Madrid,40.4531,-3.6884,Madrid,Spain
+Club Brugge,51.1936,3.1800,Bruges,Belgium
+Internacional,-30.0635,-51.2340,Porto Alegre,Brazil
+Pumas UNAM,19.3028,-99.1505,Mexico City,Mexico
+Independiente del Valle,-0.2958,-78.5514,Sangolquí,Ecuador
+Venezia,45.4408,12.3155,Venice,Italy
+Atlético Mineiro,-19.8619,-43.9710,Belo Horizonte,Brazil
+River Plate,-34.5454,-58.4497,Buenos Aires,Argentina
+Pachuca,20.0694,-98.7307,Pachuca,Mexico
+Royal Antwerp,51.2194,4.4025,Antwerp,Belgium
+Huracán,-34.6429,-58.3974,Buenos Aires,Argentina
+Corinthians,-23.5453,-46.4742,São Paulo,Brazil
+Lazio,41.9340,12.4547,Rome,Italy
+Fluminense,-22.8917,-43.2297,Rio de Janeiro,Brazil
+CF Monterrey,25.6732,-100.3129,Monterrey,Mexico
+Wolverhampton Wanderers,52.5870,-2.1288,Wolverhampton,England
+Panathinaikos,37.9838,23.7275,Athens,Greece
+Al Nassr,24.7136,46.6753,Riyadh,Saudi Arabia
+Minnesota United,44.9537,-93.1653,Saint Paul,United States
+Cagliari,39.2238,9.1217,Cagliari,Italy
+EC Bahia,-12.9714,-38.5124,Salvador,Brazil
+FC Nantes,47.2560,-1.5246,Nantes,France
+Racing Club,-34.6685,-58.3684,Avellaneda,Argentina
+FK Krasnodar,45.0355,38.9753,Krasnodar,Russia
+Rosario Central,-32.9456,-60.6776,Rosario,Argentina
+Botafogo,-22.8917,-43.2297,Rio de Janeiro,Brazil
+Wolverhampton Wanderers,52.5870,-2.1288,Wolverhampton,England
+Al-Ahli,24.6911,46.7110,Riyadh,Saudi Arabia
+FC Barcelona,41.3809,2.1228,Barcelona,Spain
+Al Nassr,24.7136,46.6753,Riyadh,Saudi Arabia
+RCD Mallorca,39.5696,2.6502,Mallorca,Spain
+RCD Espanyol,41.3486,2.0755,Cornellà,Spain
+GD Chaves,41.7366,-7.4714,Chaves,Portugal
+CF Montana,43.4075,23.2256,Montana,Bulgaria
+San Diego FC,32.7157,-117.1611,San Diego,United States
+Trabzonspor,41.0015,39.7178,Trabzon,Turkey
+FCSB,44.4268,26.1025,Bucharest,Romania
+Shamrock Rovers,53.3180,-6.3668,Dublin,Ireland
+SJK,62.7903,22.8403,Seinäjoki,Finland
+SC Torreense,39.0918,-9.2366,Torres Vedras,Portugal
+Al Bataeh,25.2833,55.8500,Al Bataeh,UAE
+Vitória de Guimarães,41.4450,-8.2908,Guimarães,Portugal
+SC Farense,37.0194,-7.9304,Faro,Portugal
+Puskás Akadémia,47.1928,18.4080,Felcsút,Hungary
+Ludogorets Razgrad,43.5286,26.5215,Razgrad,Bulgaria
+Omonia Nicosia,35.1680,33.3640,Nicosia,Cyprus
+Apollon Limassol,34.6786,33.0413,Limassol,Cyprus
+Estrela Amadora,38.7600,-9.2400,Amadora,Portugal
+Casa Pia,38.7223,-9.1393,Lisbon,Portugal
+Akron Tolyatti,53.5078,49.4187,Tolyatti,Russia
+Maccabi Tel Aviv,32.0853,34.7818,Tel Aviv,Israel
+Estudiantes de La Plata,-34.9214,-57.9528,La Plata,Argentina
+Boca Juniors,-34.6353,-58.3648,Buenos Aires,Argentina
+Como 1907,45.8100,9.0852,Como,Italy
+Athletic Club,43.2641,-2.9494,Bilbao,Spain
+CA Osasuna,42.7966,-1.6371,Pamplona,Spain
+Rayo Vallecano,40.3922,-3.6587,Madrid,Spain
+Neom FC,28.0000,35.0000,Neom,Saudi Arabia
+Al Ula FC,26.6184,37.9127,Al Ula,Saudi Arabia
+Al Nassr,24.7136,46.6753,Riyadh,Saudi Arabia
+Al Hilal,24.7136,46.6753,Riyadh,Saudi Arabia
+Al Ahli,24.6911,46.7110,Riyadh,Saudi Arabia
+Al Qadsiah,26.4207,50.0888,Khobar,Saudi Arabia
+Al Ittihad,21.4858,39.1925,Jeddah,Saudi Arabia
+Zamalek,30.0444,31.2357,Cairo,Egypt
+El Gouna,27.1828,33.8623,El Gouna,Egypt
+Pyramids FC,30.0131,31.2089,Giza,Egypt
+Al Najma,26.2235,50.5876,Manama,Bahrain
+Zed FC,30.0444,31.2357,Cairo,Egypt
+Real Oviedo,43.3614,-5.8494,Oviedo,Spain
+Tractor SC,38.0667,46.3000,Tabriz,Iran
+Sepahan,32.6546,51.6680,Isfahan,Iran
+Persepolis,35.7259,51.2848,Tehran,Iran
+Malavan,37.2682,49.5891,Bandar Anzali,Iran
+Foolad,32.6546,51.6680,Isfahan,Iran
+Shabab Al-Ahli,25.2048,55.2708,Dubai,UAE
+Al-Nassr,24.7136,46.6753,Riyadh,Saudi Arabia
+Kalba FC,25.0741,56.3494,Kalba,UAE
+Al-Wahda,24.4539,54.3773,Abu Dhabi,UAE
+FK Rostov,47.2357,39.7015,Rostov-on-Don,Russia
+Standard Liège,50.6108,5.5406,Liège,Belgium
+Millwall,51.4867,-0.0511,London,England
+Lechia Gdańsk,54.3520,18.6466,Gdańsk,Poland
+Auckland FC,-36.8485,174.7633,Auckland,New Zealand
+Wellington Phoenix,-41.2729,174.7756,Wellington,New Zealand
+Portland Timbers,45.5215,-122.6916,Portland,United States
+Braintree Town,51.8780,0.5530,Braintree,England
+Peterborough United,52.5648,-0.2407,Peterborough,England
+Motherwell,55.7870,-3.9847,Motherwell,Scotland
+Western Sydney Wanderers,-33.8277,150.9867,Parramatta,Australia
+Port Vale,52.9879,-2.1926,Stoke-on-Trent,England
+Silkeborg IF,56.1724,9.5456,Silkeborg,Denmark
+Newcastle Jets,-32.9283,151.7817,Newcastle,Australia
+Luton Town,51.8842,-0.4316,Luton,England
+USM Alger,36.7538,3.0588,Algiers,Algeria
+Stade Nyonnais,46.3833,6.2333,Nyon,Switzerland
+Granada CF,37.1773,-3.5986,Granada,Spain
+JS Kabylie,36.6500,3.9000,Tizi Ouzou,Algeria
+Hellas Verona,45.4384,10.9916,Verona,Italy
+Paris FC,48.8188,2.2530,Paris,France
+LOSC Lille,50.6120,3.1302,Lille,France
+Espérance de Tunis,36.8065,10.1815,Tunis,Tunisia
+Royal Charleroi,50.4108,4.4446,Charleroi,Belgium
+FC Twente,52.2368,6.8409,Enschede,Netherlands
+Győri ETO FC,47.6875,17.6504,Győr,Hungary
+Frosinone,41.6397,13.3426,Frosinone,Italy
+Al-Duhail,25.2854,51.5310,Doha,Qatar
+Elche CF,38.2669,-0.6983,Elche,Spain
+Brøndby IF,55.6592,12.4098,Brøndby,Denmark
+FC Schalke 04,51.5547,7.0722,Gelsenkirchen,Germany
+Werder Bremen,53.0664,8.8375,Bremen,Germany
+VfL Wolfsburg,52.4327,10.8040,Wolfsburg,Germany
+Wolfsberger AC,46.8364,14.8441,Wolfsberg,Austria
+LASK,48.2606,14.2862,Linz,Austria
+Venezia,45.4408,12.3155,Venice,Italy
+Al-Hussein SC,32.0560,36.0937,Amman,Jordan
+Al-Wehdat,31.9510,35.9306,Amman,Jordan
+Al-Faisaly,31.9566,35.9456,Amman,Jordan
+Selangor FC,3.1390,101.6869,Shah Alam,Malaysia
+Al-Samiya,31.9500,35.9300,Amman,Jordan
+Al-Karma,33.3500,44.4000,Baghdad,Iraq
+FC Seoul,37.5683,126.8970,Seoul,South Korea
+Al-Zawraa,33.3127,44.3660,Baghdad,Iraq
+Qatar SC,25.2854,51.5310,Doha,Qatar
+Al-Sailiya,25.2854,51.5310,Doha,Qatar
+Al-Shabab,24.7136,46.6753,Riyadh,Saudi Arabia
+FC Porto,41.1618,-8.5836,Porto,Portugal
+Standard de Liège,50.6108,5.5406,Liège,Belgium
+FC Noah,40.1811,44.5136,Yerevan,Armenia
+Le Havre AC,49.4983,0.1022,Le Havre,France
+Aris Limassol,34.6786,33.0413,Limassol,Cyprus
+Widzew Łódź,51.7592,19.4560,Łódź,Poland
+Spartak Moscow,55.8189,37.4402,Moscow,Russia
+Montpellier HSC,43.6119,3.8122,Montpellier,France
+Atromitos FC,38.0472,23.6636,Peristeri,Greece
+Kilmarnock,55.6117,-4.4955,Kilmarnock,Scotland
+Al Jazira,24.4539,54.3773,Abu Dhabi,UAE
+Alanyaspor,36.5435,31.9994,Alanya,Turkey
+Navbahor Namangan,40.9933,71.6726,Namangan,Uzbekistan
+FK Nasaf,38.8600,65.7978,Qarshi,Uzbekistan
+Neftchi Fergana,40.3842,71.7969,Fergana,Uzbekistan
+Pakhtakor,41.3111,69.2797,Tashkent,Uzbekistan
+Surkhon Termiz,37.2242,67.2783,Termez,Uzbekistan
+AGMK,40.5531,69.6006,Olmaliq,Uzbekistan
+Dinamo Samarqand,39.6542,66.9597,Samarkand,Uzbekistan
+Baniyas,24.3300,54.6300,Abu Dhabi,UAE
+Dibba FC,25.6167,56.2625,Dibba,UAE
+FK Bukhara,39.7747,64.4286,Bukhara,Uzbekistan
+Atlas,20.6866,-103.3485,Guadalajara,Mexico
+Atlético Nacional,6.2442,-75.5812,Medellín,Colombia
+Vélez Sarsfield,-34.6344,-58.5216,Buenos Aires,Argentina
+RCD Mallorca,39.5696,2.6502,Mallorca,Spain
+Cruz Azul,19.3028,-99.1505,Mexico City,Mexico
+Dynamo Moscow,55.7558,37.6173,Moscow,Russia
+Galatasaray,41.0036,28.9944,Istanbul,Turkey
+SL Benfica,38.7528,-9.1847,Lisbon,Portugal
+AGF Aarhus,56.1629,10.2039,Aarhus,Denmark
+Sarpsborg 08,59.2839,11.1097,Sarpsborg,Norway
+Nashville SC,36.1303,-86.7651,Nashville,United States
+Dibba Al-Fujairah,25.5833,56.2500,Dibba,UAE
+Persib Bandung,-6.9175,107.6191,Bandung,Indonesia
+Al-Shorta,33.3127,44.3660,Baghdad,Iraq
+Al-Talaba,33.3127,44.3660,Baghdad,Iraq
+Port FC,13.7563,100.5018,Bangkok,Thailand
+Pogoń Szczecin,53.4285,14.5528,Szczecin,Poland
+Cracovia,50.0647,19.9450,Kraków,Poland
+AEK Larnaca,34.9231,33.6280,Larnaca,Cyprus
+FC Utrecht,52.0788,5.1462,Utrecht,Netherlands
+Al-Dhafra,24.2000,53.7500,Madinat Zayed,UAE
+Al-Quwa Al-Jawiya,33.3127,44.3660,Baghdad,Iraq
+Al-Najma,26.2235,50.5876,Manama,Bahrain
+Sevilla,37.3841,-5.9706,Seville,Spain
+Genoa,44.4056,8.9463,Genoa,Italy
+Torino,45.0419,7.6497,Turin,Italy
+FK Bodø/Glimt,67.2804,14.3975,Bodø,Norway
+Cremonese,45.1322,10.0260,Cremona,Italy
+SL Benfica,38.7528,-9.1847,Lisbon,Portugal
+Sassuolo,44.5345,10.8592,Sassuolo,Italy
+Atlético Madrid,40.4360,-3.5996,Madrid,Spain
+FC St. Gallen,47.4084,9.3050,St. Gallen,Switzerland
+AJ Auxerre,47.7979,3.5670,Auxerre,France
+Real Oviedo,43.3614,-5.8494,Oviedo,Spain
+Viktoria Plzeň,49.7384,13.3736,Plzeň,Czech Republic
+Leicester City,52.6203,-1.1412,Leicester,England
+Atalanta,45.7092,9.6809,Bergamo,Italy
+Al Qadsiah,26.4207,50.0888,Khobar,Saudi Arabia
+Olympique Lyonnais,45.7640,4.8357,Lyon,France
+FC Nordsjælland,55.7924,12.2814,Farum,Denmark
+Club Nacional,-34.8836,-56.1819,Montevideo,Uruguay
+Al-Fayha,25.3462,43.9706,Al Majma'ah,Saudi Arabia
+CD Marathon,15.5070,-88.0261,San Pedro Sula,Honduras
+Slovan Bratislava,48.1486,17.1077,Bratislava,Slovakia
+Deportivo Saprissa,9.9281,-84.0907,San José,Costa Rica
+FC Pari NN,56.3269,44.0059,Nizhny Novgorod,Russia
+Deportivo La Guaira,10.6112,-66.9346,La Guaira,Venezuela
+Turan Tovuz,41.0564,45.6167,Tovuz,Azerbaijan
+Mazatlán FC,23.2494,-106.4111,Mazatlán,Mexico
+Ironi Kiryat Shmona,33.2072,35.5718,Kiryat Shmona,Israel
+CD Plaza Amador,9.0092,-79.5341,Panama City,Panama
+FC Juárez,31.6904,-106.4245,Ciudad Juárez,Mexico
+CD Cobresal,-26.3442,-70.2532,El Salvador,Chile
+Universidad de Concepción,-36.8261,-73.0498,Concepción,Chile
+Universidad Católica,-33.4489,-70.6693,Santiago,Chile
+Club León,21.1220,-101.6824,León,Mexico
+Real Salt Lake,40.5828,-111.8933,Sandy,United States
+Tigres UANL,25.7268,-100.3131,Monterrey,Mexico
+St Patrick's Athletic,53.3331,-6.2488,Dublin,Ireland
+Accra Hearts of Oak,5.6037,-0.1870,Accra,Ghana
+Stade Rennais,48.1073,-1.7130,Rennes,France
+Dynamo Makhachkala,42.9849,47.5047,Makhachkala,Russia
+FCV Dender,50.8833,4.0833,Dender,Belgium
+Alireza Jahanbakhsh,50.8833,4.0833,Dender,Belgium
+Houston Dynamo,29.7522,-95.3523,Houston,United States
+Olympique de Marseille,43.2699,5.3958,Marseille,France
+Aston Villa,52.5092,-1.8847,Birmingham,England
+Inter Miami,25.9580,-80.2389,Fort Lauderdale,United States
+Chelsea,51.4817,-0.1910,London,England
+Liverpool,53.4309,-2.9608,Liverpool,England
+Flamengo,-22.8917,-43.2297,Rio de Janeiro,Brazil
+Sporting CP,38.7614,-9.1607,Lisbon,Portugal
+Napoli,40.8279,14.1931,Naples,Italy
+Club América,19.3028,-99.1505,Mexico City,Mexico
+Inter Milan,45.4781,9.1240,Milan,Italy
+Al Hilal,24.7136,46.6753,Riyadh,Saudi Arabia
+Bayern Munich,48.2188,11.6247,Munich,Germany
+Orlando City,28.5418,-81.3891,Orlando,United States
+Wolverhampton Wanderers,52.5870,-2.1288,Wolverhampton,England
+Fenerbahçe,41.0082,28.9784,Istanbul,Turkey
+Spartak Moscow,55.8189,37.4402,Moscow,Russia
+Montpellier HSC,43.6119,3.8122,Montpellier,France
+RCD Espanyol,41.3486,2.0755,Cornellà,Spain
+Al-Ahli,24.6911,46.7110,Riyadh,Saudi Arabia
+Accra Hearts of Oak,5.6037,-0.1870,Accra,Ghana
+AE Kifisias,38.0733,23.8110,Kifisia,Greece
+Academia Puerto Cabello,10.4736,-68.0106,Puerto Cabello,Venezuela
+Al-Ittihad,21.4858,39.1925,Jeddah,Saudi Arabia
+El Paso Locomotive,31.7619,-106.4850,El Paso,United States
+FC Barcelona B,41.3809,2.1228,Barcelona,Spain
+Slaven Belupo,46.1666,16.8370,Koprivnica,Croatia
